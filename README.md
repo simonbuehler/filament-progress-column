@@ -113,7 +113,7 @@ protected function getTableColumns(): array
 ```
 ### Dynamic color calculation
 
-If you wish to calculate the color dynamically, provide a `Closure` to the `ProgressColumn::progress()` method.
+If you wish to calculate the color dynamically, provide a `Closure` to the `ProgressColumn::color()` method.
 
 ```php
 protected function getTableColumns(): array
